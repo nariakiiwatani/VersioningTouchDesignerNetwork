@@ -1,6 +1,6 @@
 {
 	"name": "module_extract",
-	"path": "/project1/NetworkExporter/module_extract",
+	"OPType": "textDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,
@@ -54,7 +54,7 @@
 		"",
 		"def extractOp(o):",
 		"\tret = {arg: extractAttr(getattr(o,arg)) for arg in [",
-		"\t\t'name', 'path',",
+		"\t\t'name', 'OPType',",
 		"\t\t'storage', 'tags',",
 		"\t\t'replicator',",
 		"\t\t'activeViewer', 'allowCooking', 'bypass', 'cloneImmune', 'render', 'viewer',",

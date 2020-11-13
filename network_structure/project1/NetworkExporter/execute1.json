@@ -1,6 +1,6 @@
 {
 	"name": "execute1",
-	"path": "/project1/NetworkExporter/execute1",
+	"OPType": "executeDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

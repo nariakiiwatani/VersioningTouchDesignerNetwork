@@ -1,6 +1,6 @@
 {
 	"name": "par1_export",
-	"path": "/project1/NetworkExporter/par1_export",
+	"OPType": "tableDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

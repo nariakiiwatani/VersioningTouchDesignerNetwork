@@ -1,6 +1,6 @@
 {
 	"name": "parexec1",
-	"path": "/project1/NetworkExporter/parexec1",
+	"OPType": "parameterexecuteDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

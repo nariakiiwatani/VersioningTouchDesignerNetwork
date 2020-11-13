@@ -1,6 +1,6 @@
 {
 	"name": "opfind1_callbacks",
-	"path": "/project1/NetworkExporter/opfind1_callbacks",
+	"OPType": "textDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

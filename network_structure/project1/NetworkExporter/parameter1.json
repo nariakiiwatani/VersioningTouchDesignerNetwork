@@ -1,6 +1,6 @@
 {
 	"name": "parameter1",
-	"path": "/project1/NetworkExporter/parameter1",
+	"OPType": "parameterDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

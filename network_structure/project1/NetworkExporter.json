@@ -1,6 +1,6 @@
 {
 	"name": "NetworkExporter",
-	"path": "/project1/NetworkExporter",
+	"OPType": "baseCOMP",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

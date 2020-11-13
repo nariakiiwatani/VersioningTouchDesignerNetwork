@@ -1,6 +1,6 @@
 {
 	"name": "opfind1",
-	"path": "/project1/NetworkExporter/opfind1",
+	"OPType": "opfindDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

@@ -1,6 +1,6 @@
 {
 	"name": "export_script",
-	"path": "/project1/NetworkExporter/export_script",
+	"OPType": "textDAT",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

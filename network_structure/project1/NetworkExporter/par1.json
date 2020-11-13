@@ -1,6 +1,6 @@
 {
 	"name": "par1",
-	"path": "/project1/NetworkExporter/par1",
+	"OPType": "parameterCHOP",
 	"storage": {},
 	"tags": [],
 	"replicator": null,
