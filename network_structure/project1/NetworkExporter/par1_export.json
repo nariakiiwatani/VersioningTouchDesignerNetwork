@@ -1,0 +1,34 @@
+{
+	"name": "par1_export",
+	"path": "/project1/NetworkExporter/par1_export",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [],
+	"text": [
+		[
+			"name",
+			"index",
+			"path",
+			"parameter",
+			"enable"
+		],
+		[
+			"Limitdepth",
+			"6",
+			"opfind1",
+			"limitmaxdepth",
+			"1"
+		]
+	]
+}

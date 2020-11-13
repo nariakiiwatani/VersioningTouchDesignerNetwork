@@ -1,0 +1,82 @@
+{
+	"name": "execute1",
+	"path": "/project1/NetworkExporter/execute1",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "projectpresave",
+			"val": false,
+			"expr": "op('par1')['Exportonpresaving']",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "projectpostsave",
+			"val": false,
+			"expr": "op('par1')['Exportonpostsaving']",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	],
+	"text": [
+		"# me - this DAT",
+		"# ",
+		"# frame - the current frame",
+		"# state - True if the timeline is paused",
+		"# ",
+		"# Make sure the corresponding toggle is enabled in the Execute DAT.",
+		"",
+		"def onStart():",
+		"\treturn",
+		"",
+		"def onCreate():",
+		"\treturn",
+		"",
+		"def onExit():",
+		"\treturn",
+		"",
+		"def onFrameStart(frame):",
+		"\treturn",
+		"",
+		"def onFrameEnd(frame):",
+		"\treturn",
+		"",
+		"def onPlayStateChange(state):",
+		"\treturn",
+		"",
+		"def onDeviceChange():",
+		"\treturn",
+		"",
+		"def onProjectPreSave():",
+		"\top('export_script').run()",
+		"\treturn",
+		"",
+		"def onProjectPostSave():",
+		"\top('export_script').run()",
+		"\treturn",
+		"",
+		"\t"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "par1",
+	"path": "/project1/NetworkExporter/par1",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": true,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "exporttable",
+			"val": "par1_export",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

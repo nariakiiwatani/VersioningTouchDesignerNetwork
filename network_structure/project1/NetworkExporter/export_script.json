@@ -1,0 +1,37 @@
+{
+	"name": "export_script",
+	"path": "/project1/NetworkExporter/export_script",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [],
+	"text": [
+		"import module_extract",
+		"import json",
+		"import os",
+		"",
+		"outdir = op('parameter1')['Outdir', 'value']",
+		"op_list = op('opfind1')",
+		"op_list.par.cookpulse.pulse()",
+		"for i in range(1, op_list.numRows):",
+		"\tpath = op_list[i, 'path']",
+		"\tdata = (module_extract.extractOp(op(path)))",
+		"\toutpath = outdir+path",
+		"\tos.makedirs(os.path.dirname(outpath), exist_ok=True)",
+		"\twith open(tdu.expandPath(outpath+'.json'), 'w') as f:",
+		"\t    json.dump(data, f, indent='\\t')",
+		""
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"name": "parameter1",
+	"path": "/project1/NetworkExporter/parameter1",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [],
+	"text": [
+		[
+			"name",
+			"value"
+		],
+		[
+			"Watchtarget",
+			"/project1"
+		],
+		[
+			"Outdir",
+			"network_structure"
+		],
+		[
+			"Exportonpresaving",
+			"0"
+		],
+		[
+			"Exportonpostsaving",
+			"1"
+		],
+		[
+			"Export",
+			"0"
+		],
+		[
+			"Maxdepth",
+			"1"
+		],
+		[
+			"Limitdepth",
+			"0"
+		]
+	]
+}

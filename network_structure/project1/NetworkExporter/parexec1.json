@@ -1,0 +1,94 @@
+{
+	"name": "parexec1",
+	"path": "/project1/NetworkExporter/parexec1",
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "op",
+			"val": "..",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "pars",
+			"val": "Export",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "valuechange",
+			"val": false,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "builtin",
+			"val": false,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		"# me - this DAT",
+		"# par - the Par object that has changed",
+		"# val - the current value",
+		"# prev - the previous value",
+		"# ",
+		"# Make sure the corresponding toggle is enabled in the Parameter Execute DAT.",
+		"",
+		"def onValueChange(par, prev):",
+		"\t# use par.eval() to get current value",
+		"\treturn",
+		"",
+		"def onPulse(par):",
+		"\top('export_script').run()",
+		"\treturn",
+		"",
+		"def onExpressionChange(par, val, prev):",
+		"\treturn",
+		"",
+		"def onExportChange(par, val, prev):",
+		"\treturn",
+		"",
+		"def onEnableChange(par, val, prev):",
+		"\treturn",
+		"",
+		"def onModeChange(par, val, prev):",
+		"\treturn",
+		"\t"
+	]
+}
