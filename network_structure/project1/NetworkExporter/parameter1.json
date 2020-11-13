@@ -47,6 +47,10 @@
 		[
 			"Limitdepth",
 			"0"
+		],
+		[
+			"Ignoreinsideexternaltox",
+			"0"
 		]
 	]
 }

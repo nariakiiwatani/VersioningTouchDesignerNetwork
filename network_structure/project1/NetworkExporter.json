@@ -23,6 +23,17 @@
 			"bindExpr": null,
 			"bindReferences": [],
 			"mode": "CONSTANT"
+		},
+		{
+			"name": "externaltox",
+			"val": "NetworkExporter.tox",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
 		}
 	]
 }
