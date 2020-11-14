@@ -19,17 +19,6 @@
 	],
 	"par": [
 		{
-			"name": "activecook",
-			"val": "off",
-			"expr": null,
-			"enableExpr": null,
-			"exportOP": null,
-			"exportSource": null,
-			"bindExpr": null,
-			"bindReferences": [],
-			"mode": "CONSTANT"
-		},
-		{
 			"name": "component",
 			"val": "..",
 			"expr": "op('parameter1')['Watchtarget','value']",
@@ -115,6 +104,10 @@
 		[
 			"project1",
 			"/project1"
+		],
+		[
+			"base1",
+			"/project1/base1"
 		],
 		[
 			"NetworkExporter",

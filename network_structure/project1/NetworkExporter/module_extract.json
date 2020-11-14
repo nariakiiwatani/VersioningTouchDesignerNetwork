@@ -62,7 +62,7 @@
 		"\t\t'activeViewer', 'allowCooking', 'bypass', 'cloneImmune', 'render', 'viewer',",
 		"\t\t'inputConnectors', 'outputConnectors'",
 		"\t]}",
-		"\tret['par'] = [extractPar(par) for par in o.pars() if not par.isDefault]\t",
+		"\tret['par'] = [extractPar(par) for par in o.pars() if par.isCustom or not par.isDefault]\t",
 		"\tif o.isDAT:",
 		"\t\tret['text'] = o.text.splitlines() if o.isText else [line.split('\\t') for line in o.text.splitlines()]",
 		"\treturn ret"
