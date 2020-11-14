@@ -1,6 +1,7 @@
 {
 	"name": "module_extract",
 	"OPType": "textDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,
@@ -55,6 +56,7 @@
 		"def extractOp(o):",
 		"\tret = {arg: extractAttr(getattr(o,arg)) for arg in [",
 		"\t\t'name', 'OPType',",
+		"\t\t'comment',",
 		"\t\t'storage', 'tags',",
 		"\t\t'replicator',",
 		"\t\t'activeViewer', 'allowCooking', 'bypass', 'cloneImmune', 'render', 'viewer',",

@@ -1,6 +1,7 @@
 {
 	"name": "opfind1_callbacks",
 	"OPType": "textDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

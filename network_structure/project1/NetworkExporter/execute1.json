@@ -1,6 +1,7 @@
 {
 	"name": "execute1",
 	"OPType": "executeDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

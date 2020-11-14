@@ -1,6 +1,7 @@
 {
 	"name": "par1_export",
 	"OPType": "tableDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

@@ -1,6 +1,7 @@
 {
 	"name": "opfind1",
 	"OPType": "opfindDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

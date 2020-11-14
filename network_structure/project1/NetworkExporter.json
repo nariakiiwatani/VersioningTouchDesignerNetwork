@@ -1,6 +1,7 @@
 {
 	"name": "NetworkExporter",
 	"OPType": "baseCOMP",
+	"comment": "comment exporting test",
 	"storage": {},
 	"tags": [],
 	"replicator": null,

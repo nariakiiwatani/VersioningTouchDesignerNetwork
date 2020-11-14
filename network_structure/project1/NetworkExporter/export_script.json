@@ -1,6 +1,7 @@
 {
 	"name": "export_script",
 	"OPType": "textDAT",
+	"comment": "",
 	"storage": {},
 	"tags": [],
 	"replicator": null,
