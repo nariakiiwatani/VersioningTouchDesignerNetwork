@@ -4,6 +4,8 @@ TouchDesignerのネットワーク構造とノードの設定をhuman-readable�
 
 `.toe`や`.tox`の全情報をアーカイブすることは目的とせず、「バージョン管理したい情報」をピックアップして保存することを目指しています。
 
+![example screenshot](https://user-images.githubusercontent.com/1306139/99188335-cba77f00-279e-11eb-92a7-3d5970af2016.png)
+
 # How to use
 
 `NetworkExpander.toe`を自分のネットワークにドラッグアンドドロップするだけです。  
