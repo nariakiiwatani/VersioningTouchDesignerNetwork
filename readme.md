@@ -10,7 +10,7 @@ TouchDesignerのネットワーク構造とノードの設定をhuman-readable�
 
 `NetworkExpander.toe`を自分のネットワークにドラッグアンドドロップするだけです。  
 パラメータにいくつか設定項目があるので、必要に応じて設定してください。  
-![NetworkExpander Parameters](https://user-images.githubusercontent.com/1306139/100048999-9c0d0c80-2e59-11eb-82a3-f5a5ddd5e9e6.png)
+![NetworkExpander Parameters](https://user-images.githubusercontent.com/1306139/100049355-77fdfb00-2e5a-11eb-915d-20120bdb9c66.png)
 
 # etc...
 
