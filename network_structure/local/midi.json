@@ -1,0 +1,44 @@
+{
+	"name": "midi",
+	"OPType": "baseCOMP",
+	"comment": "",
+	"nodeX": 50,
+	"nodeY": -300,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": false,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": [
+		{
+			"name": "opviewer",
+			"val": "./device",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "loadondemand",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

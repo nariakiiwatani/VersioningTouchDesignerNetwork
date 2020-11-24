@@ -1,0 +1,45 @@
+{
+	"name": "scrubber",
+	"OPType": "switchCHOP",
+	"comment": "",
+	"nodeX": 210,
+	"nodeY": 620,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/independent": 0
+		},
+		{
+			"/local/time/resample1": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/clock": 0
+		}
+	],
+	"par": [
+		{
+			"name": "index",
+			"val": 0,
+			"expr": "tabr(\"state\",\"scrub\",1)",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

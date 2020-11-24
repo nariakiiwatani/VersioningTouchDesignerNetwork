@@ -1,0 +1,66 @@
+{
+	"name": "syncframe",
+	"OPType": "limitCHOP",
+	"comment": "",
+	"nodeX": -600,
+	"nodeY": 790,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/math11": 0
+		}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/hold1": 0
+		}
+	],
+	"par": [
+		{
+			"name": "type",
+			"val": "loop",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": "/local/time/override",
+			"exportSource": [
+				2,
+				2
+			],
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPORT"
+		},
+		{
+			"name": "min",
+			"val": 1.0,
+			"expr": "par(\"../rangestart\")",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "max",
+			"val": 601.0,
+			"expr": "par(\"../rangeend\")+1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

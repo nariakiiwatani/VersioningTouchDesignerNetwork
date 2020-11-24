@@ -1,0 +1,59 @@
+{
+	"name": "midiout",
+	"OPType": "midioutCHOP",
+	"comment": "",
+	"nodeX": 590,
+	"nodeY": -100,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "id",
+			"val": "1",
+			"expr": "parent().digits",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "timeslice",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "autoexportroot",
+			"val": "",
+			"expr": "me.parent()",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

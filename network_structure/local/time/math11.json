@@ -1,0 +1,53 @@
+{
+	"name": "math11",
+	"OPType": "mathCHOP",
+	"comment": "",
+	"nodeX": -750,
+	"nodeY": 790,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/math10": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/syncframe": 0
+		}
+	],
+	"par": [
+		{
+			"name": "stdswitcher1",
+			"val": 1,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "gain",
+			"val": 60.0,
+			"expr": "par(\"../rate\")*if(int(tabr(\"state\",\"play\",1))==0,1,sign(tabr(\"state\",\"play\",1)))",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

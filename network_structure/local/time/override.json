@@ -1,0 +1,44 @@
+{
+	"name": "override",
+	"OPType": "nullDAT",
+	"comment": "",
+	"nodeX": -440,
+	"nodeY": 200,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/properties": 0
+		}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [],
+	"text": [
+		[
+			"parameter",
+			"path",
+			"value"
+		],
+		[
+			"limittype",
+			"cframe",
+			"tab(\"limit\",par(\"../rangelimit\"),0)"
+		],
+		[
+			"type",
+			"syncframe",
+			"tab(\"limit\",par(\"../rangelimit\"),0)"
+		]
+	]
+}

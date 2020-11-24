@@ -1,0 +1,74 @@
+{
+	"name": "attributes",
+	"OPType": "tableDAT",
+	"comment": "",
+	"nodeX": 0,
+	"nodeY": 200,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "removeblank",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rows",
+			"val": 1,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "cols",
+			"val": 2,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"name",
+			"User Device Map"
+		]
+	]
+}

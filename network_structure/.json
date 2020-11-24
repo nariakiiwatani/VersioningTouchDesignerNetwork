@@ -1,0 +1,21 @@
+{
+	"name": "root",
+	"OPType": "baseCOMP",
+	"comment": "",
+	"nodeX": 0,
+	"nodeY": 0,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": true,
+	"viewer": false,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": []
+}

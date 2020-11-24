@@ -1,0 +1,65 @@
+{
+	"name": "properties",
+	"OPType": "tableDAT",
+	"comment": "",
+	"nodeX": -600,
+	"nodeY": 200,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{
+			"/local/time/override": 0
+		}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "cols",
+			"val": 3,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"parameter",
+			"path",
+			"value"
+		],
+		[
+			"limittype",
+			"cframe",
+			"tab(\"limit\",par(\"../rangelimit\"),0)"
+		],
+		[
+			"type",
+			"syncframe",
+			"tab(\"limit\",par(\"../rangelimit\"),0)"
+		]
+	]
+}

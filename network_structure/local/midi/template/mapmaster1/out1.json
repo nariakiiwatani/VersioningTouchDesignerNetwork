@@ -1,0 +1,50 @@
+{
+	"name": "out1",
+	"OPType": "outCHOP",
+	"comment": "",
+	"nodeX": 250,
+	"nodeY": 25,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/midi/template/mapmaster1/midiinmap": 0
+		}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "exportmethod",
+			"val": "autoname",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "autoexportroot",
+			"val": "",
+			"expr": "me.parent()",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

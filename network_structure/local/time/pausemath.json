@@ -1,0 +1,53 @@
+{
+	"name": "pausemath",
+	"OPType": "mathCHOP",
+	"comment": "",
+	"nodeX": -590,
+	"nodeY": 440,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/rate": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/cframe": 0
+		}
+	],
+	"par": [
+		{
+			"name": "gain",
+			"val": 1.0,
+			"expr": "tabr(\"state\",\"play\",1)",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "exportmethod",
+			"val": "autoname",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"name": "ableton",
+	"OPType": "selectDAT",
+	"comment": "",
+	"nodeX": -640,
+	"nodeY": 982,
+	"nodeWidth": 122,
+	"nodeHeight": 78,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/state": 1
+		}
+	],
+	"par": [
+		{
+			"name": "dat",
+			"val": "`ifs(opexists(\"../abletonsync/oscmodule/state\")==1,\"../abletonsync/oscmodule/state\",\"\")`",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rowindexend",
+			"val": -1,
+			"expr": "$NR - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "colindexend",
+			"val": -1,
+			"expr": "$NC - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	],
+	"text": []
+}

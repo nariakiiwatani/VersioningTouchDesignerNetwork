@@ -1,0 +1,385 @@
+{
+	"name": "opfind1",
+	"OPType": "opfindDAT",
+	"comment": "",
+	"nodeX": -100,
+	"nodeY": 25,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "component",
+			"val": "..",
+			"expr": "op('parameter1')['Watchtarget','value']",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "includecomponent",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "limitmaxdepth",
+			"val": true,
+			"expr": "op('par1')['Limitdepth']",
+			"enableExpr": null,
+			"exportOP": "/NetworkExporter/par1",
+			"exportSource": "Limitdepth",
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "maxdepth",
+			"val": 1,
+			"expr": "op('par1')['Maxdepth']",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "typecol",
+			"val": false,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "pathcol",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "callbacks",
+			"val": "opfind1_callbacks",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"name",
+			"path"
+		],
+		[
+			"root",
+			"/"
+		],
+		[
+			"local",
+			"/local"
+		],
+		[
+			"maps",
+			"/local/maps"
+		],
+		[
+			"master",
+			"/local/maps/master"
+		],
+		[
+			"select1",
+			"/local/maps/select1"
+		],
+		[
+			"select2",
+			"/local/maps/select2"
+		],
+		[
+			"replicator1",
+			"/local/maps/replicator1"
+		],
+		[
+			"replicator1_callbacks",
+			"/local/maps/replicator1_callbacks"
+		],
+		[
+			"midi",
+			"/local/midi"
+		],
+		[
+			"device",
+			"/local/midi/device"
+		],
+		[
+			"template",
+			"/local/midi/template"
+		],
+		[
+			"icon",
+			"/local/midi/template/icon"
+		],
+		[
+			"text1",
+			"/local/midi/template/text1"
+		],
+		[
+			"buttons",
+			"/local/midi/template/buttons"
+		],
+		[
+			"sliders",
+			"/local/midi/template/sliders"
+		],
+		[
+			"attributes",
+			"/local/midi/template/attributes"
+		],
+		[
+			"mapmaster1",
+			"/local/midi/template/mapmaster1"
+		],
+		[
+			"out1",
+			"/local/midi/template/mapmaster1/out1"
+		],
+		[
+			"buttons",
+			"/local/midi/template/mapmaster1/buttons"
+		],
+		[
+			"midiout",
+			"/local/midi/template/mapmaster1/midiout"
+		],
+		[
+			"sliders",
+			"/local/midi/template/mapmaster1/sliders"
+		],
+		[
+			"chopexec1",
+			"/local/midi/template/mapmaster1/chopexec1"
+		],
+		[
+			"midiinmap",
+			"/local/midi/template/mapmaster1/midiinmap"
+		],
+		[
+			"collect_buttons",
+			"/local/midi/template/mapmaster1/collect_buttons"
+		],
+		[
+			"collect_sliders",
+			"/local/midi/template/mapmaster1/collect_sliders"
+		],
+		[
+			"midi_inputs",
+			"/local/midi/midi_inputs"
+		],
+		[
+			"userdevices",
+			"/local/midi/userdevices"
+		],
+		[
+			"midi_outputs",
+			"/local/midi/midi_outputs"
+		],
+		[
+			"time",
+			"/local/time"
+		],
+		[
+			"rate",
+			"/local/time/rate"
+		],
+		[
+			"clock",
+			"/local/time/clock"
+		],
+		[
+			"eval1",
+			"/local/time/eval1"
+		],
+		[
+			"hold1",
+			"/local/time/hold1"
+		],
+		[
+			"limit",
+			"/local/time/limit"
+		],
+		[
+			"state",
+			"/local/time/state"
+		],
+		[
+			"time1",
+			"/local/time/time1"
+		],
+		[
+			"cframe",
+			"/local/time/cframe"
+		],
+		[
+			"math10",
+			"/local/time/math10"
+		],
+		[
+			"math11",
+			"/local/time/math11"
+		],
+		[
+			"ableton",
+			"/local/time/ableton"
+		],
+		[
+			"getscrub",
+			"/local/time/getscrub"
+		],
+		[
+			"override",
+			"/local/time/override"
+		],
+		[
+			"scrubber",
+			"/local/time/scrubber"
+		],
+		[
+			"get_state",
+			"/local/time/get_state"
+		],
+		[
+			"pausemath",
+			"/local/time/pausemath"
+		],
+		[
+			"resample1",
+			"/local/time/resample1"
+		],
+		[
+			"resample2",
+			"/local/time/resample2"
+		],
+		[
+			"set_state",
+			"/local/time/set_state"
+		],
+		[
+			"syncframe",
+			"/local/time/syncframe"
+		],
+		[
+			"properties",
+			"/local/time/properties"
+		],
+		[
+			"independent",
+			"/local/time/independent"
+		],
+		[
+			"forcecook_override",
+			"/local/time/forcecook_override"
+		],
+		[
+			"shortcuts",
+			"/local/shortcuts"
+		],
+		[
+			"variables",
+			"/local/variables"
+		],
+		[
+			"master_beat",
+			"/local/master_beat"
+		],
+		[
+			"set_variables",
+			"/local/set_variables"
+		],
+		[
+			"perform",
+			"/perform"
+		],
+		[
+			"project1",
+			"/project1"
+		],
+		[
+			"base1",
+			"/project1/base1"
+		],
+		[
+			"NetworkExporter",
+			"/NetworkExporter"
+		],
+		[
+			"par1",
+			"/NetworkExporter/par1"
+		],
+		[
+			"opfind1",
+			"/NetworkExporter/opfind1"
+		],
+		[
+			"execute1",
+			"/NetworkExporter/execute1"
+		],
+		[
+			"parexec1",
+			"/NetworkExporter/parexec1"
+		],
+		[
+			"parameter1",
+			"/NetworkExporter/parameter1"
+		],
+		[
+			"par1_export",
+			"/NetworkExporter/par1_export"
+		],
+		[
+			"export_script",
+			"/NetworkExporter/export_script"
+		],
+		[
+			"module_extract",
+			"/NetworkExporter/module_extract"
+		],
+		[
+			"opfind1_callbacks",
+			"/NetworkExporter/opfind1_callbacks"
+		]
+	]
+}

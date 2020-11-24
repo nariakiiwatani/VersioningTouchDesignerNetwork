@@ -1,0 +1,53 @@
+{
+	"name": "resample1",
+	"OPType": "resampleCHOP",
+	"comment": "",
+	"nodeX": -90,
+	"nodeY": 600,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/getscrub": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/scrubber": 1
+		}
+	],
+	"par": [
+		{
+			"name": "rate",
+			"val": 60.0,
+			"expr": "par(\"../rate\")",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "timeslice",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

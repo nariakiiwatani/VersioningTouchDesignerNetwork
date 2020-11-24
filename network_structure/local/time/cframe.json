@@ -1,0 +1,111 @@
+{
+	"name": "cframe",
+	"OPType": "speedCHOP",
+	"comment": "",
+	"nodeX": -440,
+	"nodeY": 440,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/pausemath": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/independent": 1
+		}
+	],
+	"par": [
+		{
+			"name": "limittype",
+			"val": "loop",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": "/local/time/override",
+			"exportSource": [
+				2,
+				1
+			],
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPORT"
+		},
+		{
+			"name": "min",
+			"val": 1.0,
+			"expr": "par(\"../rangestart\")",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "max",
+			"val": 601.0,
+			"expr": "if(strmatch(pars(\"limittype\"),\"loop\")==1,par(\"../rangeend\")+1,par(\"../rangeend\"))",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "resetvalue",
+			"val": 1.0,
+			"expr": "tabr(\"state\",\"resetframe\",1)",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "resetonstart",
+			"val": false,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "timeslice",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "exportmethod",
+			"val": "datname",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

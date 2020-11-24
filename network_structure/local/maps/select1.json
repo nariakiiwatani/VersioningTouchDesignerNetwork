@@ -1,0 +1,89 @@
+{
+	"name": "select1",
+	"OPType": "selectDAT",
+	"comment": "",
+	"nodeX": -300,
+	"nodeY": 160,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/maps/select2": 0
+		}
+	],
+	"par": [
+		{
+			"name": "dat",
+			"val": "/local/midi/device",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rowindexend",
+			"val": 0,
+			"expr": "me.inputs[0].numRows - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "extractcols",
+			"val": "bynames",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "colindexend",
+			"val": 4,
+			"expr": "me.inputs[0].numCols - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "colnames",
+			"val": "id definition",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"id",
+			"definition"
+		]
+	]
+}

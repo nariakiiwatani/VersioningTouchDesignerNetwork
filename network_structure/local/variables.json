@@ -1,0 +1,33 @@
+{
+	"name": "variables",
+	"OPType": "nullDAT",
+	"comment": "",
+	"nodeX": 175,
+	"nodeY": 0,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": false,
+	"inputConnectors": [
+		{
+			"/local/set_variables": 0
+		}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [],
+	"text": [
+		[
+			"TOENAME",
+			"proj.toe"
+		]
+	]
+}

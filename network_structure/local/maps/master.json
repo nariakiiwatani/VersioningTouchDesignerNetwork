@@ -1,0 +1,21 @@
+{
+	"name": "master",
+	"OPType": "baseCOMP",
+	"comment": "",
+	"nodeX": 210,
+	"nodeY": 140,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": false,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": []
+}

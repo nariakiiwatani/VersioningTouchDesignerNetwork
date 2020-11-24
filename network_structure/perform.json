@@ -1,0 +1,55 @@
+{
+	"name": "perform",
+	"OPType": "windowCOMP",
+	"comment": "Perform Mode configuration:\\nPress F1 to enter Perform Mode, ESC to exit",
+	"nodeX": -200,
+	"nodeY": 40,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": [
+		{
+			"name": "winop",
+			"val": "project1",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "justifyh",
+			"val": "center",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "justifyv",
+			"val": "center",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

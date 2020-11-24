@@ -1,0 +1,89 @@
+{
+	"name": "select2",
+	"OPType": "selectDAT",
+	"comment": "",
+	"nodeX": -150,
+	"nodeY": 160,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/maps/select1": 0
+		}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "extractrows",
+			"val": "bynames",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rowindexend",
+			"val": 0,
+			"expr": "me.inputs[0].numRows - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "rownames",
+			"val": "?*",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "fromcol",
+			"val": 1,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "colindexend",
+			"val": 1,
+			"expr": "me.inputs[0].numCols - 1",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	],
+	"text": [
+		[
+			"id",
+			"definition"
+		]
+	]
+}

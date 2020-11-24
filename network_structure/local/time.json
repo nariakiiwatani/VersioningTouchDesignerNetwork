@@ -1,0 +1,44 @@
+{
+	"name": "time",
+	"OPType": "timeCOMP",
+	"comment": "",
+	"nodeX": 450,
+	"nodeY": -300,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": false,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": [
+		{
+			"name": "rate",
+			"val": 60.0,
+			"expr": "cookRate()",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "clone",
+			"val": "/sys/local/time",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

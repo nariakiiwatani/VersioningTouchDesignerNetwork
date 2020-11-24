@@ -1,0 +1,45 @@
+{
+	"name": "independent",
+	"OPType": "switchCHOP",
+	"comment": "",
+	"nodeX": -250,
+	"nodeY": 720,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/hold1": 0
+		},
+		{
+			"/local/time/cframe": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/scrubber": 0
+		}
+	],
+	"par": [
+		{
+			"name": "index",
+			"val": 0,
+			"expr": "clamp(par(\"../independent\")+strmatch(\"/local/time\",opfullpath(\"..\")),0,1)",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}

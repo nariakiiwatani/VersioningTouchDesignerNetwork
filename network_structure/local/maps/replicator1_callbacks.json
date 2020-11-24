@@ -1,0 +1,61 @@
+{
+	"name": "replicator1_callbacks",
+	"OPType": "textDAT",
+	"comment": "",
+	"nodeX": 10,
+	"nodeY": -20,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		"# me - this DAT",
+		"# ",
+		"# comp - the replicator component which is cooking",
+		"# allOps - a list of all replicants, created or existing",
+		"# newOps - the subset that were just created",
+		"# template - table DAT specifying the replicator attributes",
+		"# master - the master operator",
+		"#",
+		"",
+		"def replicate(comp, allOps, newOps, template, master):",
+		"",
+		"\tfor c in newOps:",
+		"\t\t#c.display = True",
+		"\t\t#c.render = True",
+		"\t\t#c.par.display = 1",
+		"\t\t#c.par.clone = comp.par.master",
+		"\t",
+		"\t\tc.par.clone.expr = \"op('../midi/device')[me.digits, 'definition'] + '/mapmaster1'\"",
+		"",
+		"\t\tpass",
+		"",
+		"\treturn"
+	]
+}

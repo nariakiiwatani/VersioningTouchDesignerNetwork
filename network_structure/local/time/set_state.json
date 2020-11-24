@@ -1,0 +1,93 @@
+{
+	"name": "set_state",
+	"OPType": "tableDAT",
+	"comment": "",
+	"nodeX": -640,
+	"nodeY": 1120,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{
+			"/local/time/eval1": 0
+		}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rows",
+			"val": 8,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "cols",
+			"val": 2,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"play",
+			"`par(\"../play\")`"
+		],
+		[
+			"scrub",
+			"0"
+		],
+		[
+			"resetframe",
+			"1"
+		],
+		[
+			"master",
+			"/ui/dialogs/timeline"
+		],
+		[
+			"units",
+			"frames"
+		],
+		[
+			"rangelimit",
+			"loop"
+		],
+		[
+			"scrubcount",
+			"0"
+		],
+		[
+			"tapcount",
+			"0"
+		]
+	]
+}

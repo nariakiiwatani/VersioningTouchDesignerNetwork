@@ -1,0 +1,27 @@
+{
+	"name": "icon",
+	"OPType": "nullTOP",
+	"comment": "",
+	"nodeX": 170,
+	"nodeY": 0,
+	"nodeWidth": 130,
+	"nodeHeight": 67,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/midi/template/text1": 0
+		}
+	],
+	"outputConnectors": [
+		{}
+	],
+	"par": []
+}

@@ -1,0 +1,76 @@
+{
+	"name": "eval1",
+	"OPType": "evaluateDAT",
+	"comment": "",
+	"nodeX": -480,
+	"nodeY": 1120,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/set_state": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/state": 0
+		}
+	],
+	"par": [
+		{
+			"name": "output",
+			"val": "string",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"play",
+			"1"
+		],
+		[
+			"scrub",
+			"0"
+		],
+		[
+			"resetframe",
+			"1"
+		],
+		[
+			"master",
+			"/ui/dialogs/timeline"
+		],
+		[
+			"units",
+			"frames"
+		],
+		[
+			"rangelimit",
+			"loop"
+		],
+		[
+			"scrubcount",
+			"0"
+		],
+		[
+			"tapcount",
+			"0"
+		]
+	]
+}

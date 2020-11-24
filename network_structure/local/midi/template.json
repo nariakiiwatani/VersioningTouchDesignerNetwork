@@ -1,0 +1,33 @@
+{
+	"name": "template",
+	"OPType": "baseCOMP",
+	"comment": "",
+	"nodeX": 310,
+	"nodeY": 50,
+	"nodeWidth": 160,
+	"nodeHeight": 130,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [],
+	"par": [
+		{
+			"name": "opviewer",
+			"val": "./icon",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

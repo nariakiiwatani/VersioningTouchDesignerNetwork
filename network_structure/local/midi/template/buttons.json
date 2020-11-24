@@ -1,0 +1,150 @@
+{
+	"name": "buttons",
+	"OPType": "tableDAT",
+	"comment": "",
+	"nodeX": 350,
+	"nodeY": 200,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "removeblank",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rows",
+			"val": 16,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "cols",
+			"val": 3,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"b1",
+			"b? 41 7f",
+			"b? 41 00"
+		],
+		[
+			"b2",
+			"b? 42 7f",
+			"b? 42 00"
+		],
+		[
+			"b3",
+			"b? 43 7f",
+			"b? 43 00"
+		],
+		[
+			"b4",
+			"b? 44 7f",
+			"b? 44 00"
+		],
+		[
+			"b5",
+			"b? 45 7f",
+			"b? 45 00"
+		],
+		[
+			"b6",
+			"b? 46 7f",
+			"b? 46 00"
+		],
+		[
+			"b7",
+			"b? 47 7f",
+			"b? 47 00"
+		],
+		[
+			"b8",
+			"b? 48 7f",
+			"b? 48 00"
+		],
+		[
+			"b9",
+			"b? 49 7f",
+			"b? 49 00"
+		],
+		[
+			"b10",
+			"b? 4a 7f",
+			"b? 4a 00"
+		],
+		[
+			"b11",
+			"b? 4b 7f",
+			"b? 4b 00"
+		],
+		[
+			"b12",
+			"b? 4c 7f",
+			"b? 4c 00"
+		],
+		[
+			"b13",
+			"b? 4d 7f",
+			"b? 4d 00"
+		],
+		[
+			"b14",
+			"b? 4e 7f",
+			"b? 4e 00"
+		],
+		[
+			"b15",
+			"b? 4f 7f",
+			"b? 4f 00"
+		],
+		[
+			"b16",
+			"b? 50 7f",
+			"b? 50 00"
+		]
+	]
+}

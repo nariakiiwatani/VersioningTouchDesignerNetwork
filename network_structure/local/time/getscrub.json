@@ -1,0 +1,50 @@
+{
+	"name": "getscrub",
+	"OPType": "selectCHOP",
+	"comment": "",
+	"nodeX": -250,
+	"nodeY": 600,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/resample1": 0
+		}
+	],
+	"par": [
+		{
+			"name": "stdswitcher1",
+			"val": 1,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "chop",
+			"val": "`tabr(\"state\",\"master\",1)`/scrubframe",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	"name": "sliders",
+	"OPType": "tableDAT",
+	"comment": "",
+	"nodeX": 170,
+	"nodeY": 200,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "defaultreadencoding",
+			"val": "cp1252",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "removeblank",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "rows",
+			"val": 16,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "cols",
+			"val": 2,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"s1",
+			"b? 51 --"
+		],
+		[
+			"s2",
+			"b? 52 --"
+		],
+		[
+			"s3",
+			"b? 53 --"
+		],
+		[
+			"s4",
+			"b? 54 --"
+		],
+		[
+			"s5",
+			"b? 55 --"
+		],
+		[
+			"s6",
+			"b? 56 --"
+		],
+		[
+			"s7",
+			"b? 57 --"
+		],
+		[
+			"s8",
+			"b? 58 --"
+		],
+		[
+			"s9",
+			"b? 01 --"
+		],
+		[
+			"s10",
+			"b? 02 --"
+		],
+		[
+			"s11",
+			"b? 03 --"
+		],
+		[
+			"s12",
+			"b? 04 --"
+		],
+		[
+			"s13",
+			"b? 05 --"
+		],
+		[
+			"s14",
+			"b? 06 --"
+		],
+		[
+			"s15",
+			"b? 07 --"
+		],
+		[
+			"s16",
+			"b? 08 --"
+		]
+	]
+}

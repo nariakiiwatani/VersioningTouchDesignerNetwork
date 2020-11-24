@@ -1,0 +1,208 @@
+{
+	"name": "shortcuts",
+	"OPType": "fileinDAT",
+	"comment": "",
+	"nodeX": 325,
+	"nodeY": 0,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": false,
+	"inputConnectors": [],
+	"outputConnectors": [
+		{}
+	],
+	"par": [
+		{
+			"name": "file",
+			"val": "",
+			"expr": "app.configFolder + '/PanelShortcuts.txt'",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		},
+		{
+			"name": "converttable",
+			"val": true,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	],
+	"text": [
+		[
+			"label",
+			"key",
+			"command"
+		],
+		[
+			"general.command",
+			"space",
+			""
+		],
+		[
+			"general.command",
+			"left",
+			""
+		],
+		[
+			"general.command",
+			"right",
+			""
+		],
+		[
+			"general.command",
+			"shift.space",
+			"space"
+		],
+		[
+			"general.command",
+			"shift.left",
+			"left"
+		],
+		[
+			"general.command",
+			"shift.right",
+			"right"
+		],
+		[
+			"app.save",
+			"ctrl.s",
+			"toewrite -s"
+		],
+		[
+			"F1",
+			"F1",
+			"F1"
+		],
+		[
+			"F2",
+			"F2",
+			"F2"
+		],
+		[
+			"F3",
+			"F3",
+			"F3"
+		],
+		[
+			"F4",
+			"F4",
+			"F4"
+		],
+		[
+			"F5",
+			"F5",
+			"F5"
+		],
+		[
+			"F6",
+			"F6",
+			"F6"
+		],
+		[
+			"F7",
+			"F7",
+			"F7"
+		],
+		[
+			"F8",
+			"F8",
+			"F8"
+		],
+		[
+			"F9",
+			"F9",
+			"F9"
+		],
+		[
+			"F10",
+			"F10",
+			"F10"
+		],
+		[
+			"F11",
+			"F11",
+			"F11"
+		],
+		[
+			"F12",
+			"F12",
+			"F12"
+		],
+		[
+			"AF1",
+			"alt.F1",
+			"AF1"
+		],
+		[
+			"AF2",
+			"alt.F2",
+			"AF2"
+		],
+		[
+			"AF3",
+			"alt.F3",
+			"AF3"
+		],
+		[
+			"AF4",
+			"alt.F4",
+			"AF4"
+		],
+		[
+			"AF5",
+			"alt.F5",
+			"AF5"
+		],
+		[
+			"AF6",
+			"alt.F6",
+			"AF6"
+		],
+		[
+			"AF7",
+			"alt.F7",
+			"AF7"
+		],
+		[
+			"AF8",
+			"alt.F8",
+			"AF8"
+		],
+		[
+			"AF9",
+			"alt.F9",
+			"AF9"
+		],
+		[
+			"AF10",
+			"alt.F10",
+			"AF10"
+		],
+		[
+			"AF11",
+			"alt.F11",
+			"AF11"
+		],
+		[
+			"AF12",
+			"alt.F12",
+			"AF12"
+		]
+	]
+}

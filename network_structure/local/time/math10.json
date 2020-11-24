@@ -1,0 +1,53 @@
+{
+	"name": "math10",
+	"OPType": "mathCHOP",
+	"comment": "",
+	"nodeX": -900,
+	"nodeY": 790,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{
+			"/local/time/resample2": 0
+		},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/time/math11": 0
+		}
+	],
+	"par": [
+		{
+			"name": "stdswitcher1",
+			"val": 1,
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "chanop",
+			"val": "div",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		}
+	]
+}

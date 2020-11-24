@@ -1,0 +1,62 @@
+{
+	"name": "collect_buttons",
+	"OPType": "constantCHOP",
+	"comment": "",
+	"nodeX": 50,
+	"nodeY": -210,
+	"nodeWidth": 130,
+	"nodeHeight": 90,
+	"storage": {},
+	"tags": [],
+	"replicator": null,
+	"activeViewer": false,
+	"allowCooking": true,
+	"bypass": false,
+	"cloneImmune": false,
+	"render": false,
+	"viewer": true,
+	"inputConnectors": [
+		{},
+		{}
+	],
+	"outputConnectors": [
+		{
+			"/local/midi/template/mapmaster1/buttons": 0
+		}
+	],
+	"par": [
+		{
+			"name": "rate",
+			"val": 60.0,
+			"expr": "me.time.rate",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "exportmethod",
+			"val": "autoname",
+			"expr": null,
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "CONSTANT"
+		},
+		{
+			"name": "autoexportroot",
+			"val": "",
+			"expr": "me.parent()",
+			"enableExpr": null,
+			"exportOP": null,
+			"exportSource": null,
+			"bindExpr": null,
+			"bindReferences": [],
+			"mode": "EXPRESSION"
+		}
+	]
+}
