@@ -38,6 +38,8 @@
 		"\t\treturn attr.path",
 		"\tif isinstance(attr,ParMode):",
 		"\t\treturn attr.name",
+		"\tif isinstance(attr,Par):",
+		"\t\treturn {k:extractAttr(getattr(attr,k)) for k in ['name', 'owner', 'val']}",
 		"\tif isinstance(attr,Channel):",
 		"\t\treturn attr.name",
 		"\tif isinstance(attr,Cell):",

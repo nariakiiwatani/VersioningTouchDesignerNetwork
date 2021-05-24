@@ -19,7 +19,7 @@
 	"outputConnectors": [],
 	"par": [
 		{
-			"name": "stdswitcher1",
+			"name": "pageindex1",
 			"val": 1,
 			"expr": null,
 			"enableExpr": null,
@@ -54,28 +54,6 @@
 		{
 			"name": "top",
 			"val": "./out1",
-			"expr": null,
-			"enableExpr": null,
-			"exportOP": null,
-			"exportSource": null,
-			"bindExpr": null,
-			"bindReferences": [],
-			"mode": "CONSTANT"
-		},
-		{
-			"name": "drag",
-			"val": "dragparent",
-			"expr": null,
-			"enableExpr": null,
-			"exportOP": null,
-			"exportSource": null,
-			"bindExpr": null,
-			"bindReferences": [],
-			"mode": "CONSTANT"
-		},
-		{
-			"name": "drop",
-			"val": "dropparent",
 			"expr": null,
 			"enableExpr": null,
 			"exportOP": null,

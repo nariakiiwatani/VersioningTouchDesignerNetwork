@@ -26,7 +26,7 @@
 	],
 	"par": [
 		{
-			"name": "stdswitcher1",
+			"name": "pageindex1",
 			"val": 5,
 			"expr": null,
 			"enableExpr": null,

@@ -19,8 +19,8 @@
 	"outputConnectors": [],
 	"par": [
 		{
-			"name": "stdswitcher1",
-			"val": 2,
+			"name": "pageindex1",
+			"val": 3,
 			"expr": null,
 			"enableExpr": null,
 			"exportOP": null,
